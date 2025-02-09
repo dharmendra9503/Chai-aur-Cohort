@@ -17,7 +17,7 @@
 
 
 ### **Phase 2: JavaScript Surgeons 🧑🏻‍⚕️**
-[Click to see content of this phase](Content.md#Phase-2-JavaScript-Surgeons)
+[Click to see content of this phase](Content.md#Phase-2-javaScript-surgeons)
 
 <br>
 
