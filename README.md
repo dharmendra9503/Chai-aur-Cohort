@@ -1,7 +1,7 @@
 # Articles
 
 ### **Phase 0: Web Warriors ⚔️**
-[Click to see content of this phase](Content.md#Phase-0-Web-Warriors)
+[Click to see content of this phase](Content.md#phase-0-web-warriors)
 
 - [From Browsers to Servers: The Journey of Your Data](https://web-warrior.hashnode.dev/from-browsers-to-servers-the-journey-of-your-data)
 
@@ -9,7 +9,7 @@
 
 
 ### **Phase 1: Spider-Man  🕸️**
-[Click to see content of this phase](Content.md#Phase-1-Spider-Man)
+[Click to see content of this phase](Content.md#phase-1-spider-man)
 
 - [HTML for Beginners: Building the Skeleton of a Webpage](https://web-architect.hashnode.dev/html-for-beginners-building-the-skeleton-of-a-webpage)
 

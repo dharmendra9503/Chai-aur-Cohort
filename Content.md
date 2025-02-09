@@ -1,4 +1,4 @@
-## **Phase 0: Web Warriors ⚔️**
+## **Phase 0: Web Warriors**
 
 **Objective:** Learn the building blocks of the web, how the internet works, and how the protocols make communication happen.
 
@@ -63,7 +63,7 @@
 - Introduction to SSL/TLS and how it secures data during transmission
 - **Key Concepts**: Request methods (GET, POST, PUT, DELETE), HTTPS handshake, Certificate Authorities
 
-## **Phase 1: Spider-Man  🕸️**
+## **Phase 1: Spider-Man**
 
 **Objective:** Learn the foundations of web design by mastering HTML and CSS, creating the structure and styling that powers the web.
 
@@ -122,7 +122,7 @@
 - CSS3 properties: `border-radius`, `box-shadow`, `gradient`, `transitions`
 - **Key Concepts:** Modern HTML5 elements, Advanced CSS3 techniques, Cross-browser compatibility
 
-## **Phase 2: JavaScript Surgeons 🧑🏻‍⚕️**
+## **Phase 2: JavaScript Surgeons**
 
 **Objective:** Master the fundamentals and advanced concepts of JavaScript, as well as the DOM, to become proficient in scripting dynamic web pages.
 
@@ -205,7 +205,7 @@
 - Introduction to `Map`, `Set`, `WeakMap`, `WeakSet`
 - **Key Concepts:** ES6 syntax, Destructuring, Template literals, Spread/rest operators, `Map` & `Set`
 
-## **Phase 3: Node Ninja 🥷**
+## **Phase 3: Node Ninja**
 
 **Objective:** Master backend development with Node.js, learning how to create powerful server-side applications, handle HTTP requests, and connect with databases.
 
@@ -330,7 +330,7 @@
 - Monitoring performance with PM2 logs and stats
 - Log rotations
 
-## **Phase 4: React Alchemist 🧙🏻**
+## **Phase 4: React Alchemist**
 
 **Objective:** Master the art of building dynamic, interactive, and scalable web applications using React.js, Next.js, Tailwind CSS, ShadCN, and other modern technologies. Learn best practices, performance optimizations, and advanced patterns for building professional-grade React applications.
 
@@ -456,7 +456,7 @@
 - Dynamic routing and how Next.js handles URL parameters
 - **Key Concepts:** Next.js, File-based Routing, SSR, SSG, API Routes
 
-## Phase 5: Deploy and AI Squad 🚀
+## **Phase 5: Deploy and AI Squad**
 
 **Objective:** Master the deployment of web applications to the cloud, ensuring scalability, security, and high availability. Learn about cloud infrastructure using AWS services like EC2, ECS, CloudFront, Load Balancers, Docker, and more to bring applications from development to production. After that we will move towards AI. What is AI, AI powered applications, Vector Databases (Pinecone etc), RAG based systems, Image background removal, image generation, text summarization and creative ideas with AI
 
