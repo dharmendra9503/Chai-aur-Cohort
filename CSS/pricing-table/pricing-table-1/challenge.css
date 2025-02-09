@@ -1,0 +1,125 @@
+/* Challenge CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+}
+
+.container {
+  padding: 45px;
+}
+
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.pricing-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+}
+
+.pricing-card {
+  position: relative;
+  padding: 15px 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 2px solid #ff7615;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0 20px;
+  max-width: 320px;
+  height: 450px;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.pricing-card.popular {
+  height: 500px;
+}
+
+.popular-badge {
+  position: absolute;
+  top: -18px;
+  left: 50%;
+  border-radius: 20px;
+  color: #ffffff;
+  transform: translateX(-50%);
+  padding: 4px 15px;
+  background-color: #ff7615;
+}
+
+.price {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 25px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.period {
+  font-size: 15px;
+  color: #777777;
+}
+
+.features {
+  margin-top: 15px;
+  text-align: left;
+}
+
+.features li {
+  list-style: none;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 10px;
+  color: #2a2a2a;
+}
+
+.features li::before {
+  content: "\2713"; /* Unicode for checkmark */
+  position: absolute;
+  left: 0;
+  color: #ff7615;
+  font-size: 18px;
+}
+
+.subscribe-btn {
+  padding: 12px 30px;
+  border-radius: 30px;
+  border: none;
+  background-color: #ff6b01;
+  color: #ffffff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: auto;
+  width: fit-content;
+  align-self: center;
+}
+
+.subscribe-btn:hover {
+  background-color: #ff7615;
+  transform: scaleX(1.05);
+}

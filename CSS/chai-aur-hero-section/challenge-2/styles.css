@@ -1,0 +1,215 @@
+:root {
+  --primary-blue: #3b82f6;
+  --primary-blue-dark: #2563eb;
+  --gray-800: #1f2937;
+  --neutral-400: #9ca3af;
+  --neutral-900: #111827;
+
+  /* Dark mode variables */
+  --bg-dark: #111827;
+  --text-dark: #ffffff;
+  --border-dark: #374151;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, sans-serif;
+  line-height: 1.6;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.dark {
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
+  border-color: var(--border-dark);
+}
+
+.hero {
+  margin-top: 50px;
+}
+
+.hero-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.content-col h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  line-height: 80px;
+}
+
+.content-col p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.cta-group {
+  display: flex;
+  gap: 6px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.input-wrapper {
+  flex-grow: 2;
+}
+
+input[type='text'] {
+  display: block;
+  padding: 12px 17px;
+  border: 1px solid rgb(230, 227, 227);
+  border-radius: 5px;
+  color: rgb(86, 86, 86);
+  font-size: 15px;
+  font-weight: 500;
+  outline: none;
+  width: 100%;
+}
+
+input[type='text']::placeholder {
+  color: var(--neutral-400);
+}
+
+.demo-button {
+  background-color: var(--primary-blue);
+  color: var(--text-dark);
+  border: none;
+  padding: 10px 15px;
+  font-size: 15px;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.demo-button:hover {
+  background-color: var(--primary-blue-dark);
+}
+
+.brands-section {
+  margin-top: 50px;
+}
+
+.trusted-by {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.brand-logos {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-top: 7px;
+}
+
+.brand-logo {
+  width: 100px;
+  height: 50px;
+}
+
+.image-col {
+  width: 1000px;
+  height: 500px;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+@media (min-width: 640px) {
+  .hero {}
+
+  .content-col h1 {}
+
+  .cta-group {}
+
+  .demo-button {}
+
+  .input-wrapper {}
+
+  input[type='text'] {}
+}
+
+@media (min-width: 768px) {
+  .content-col h1 {}
+}
+
+@media (min-width: 1024px) {
+  body {
+  }
+
+  .hero {
+  }
+
+  .hero-grid {}
+
+  .content-col h1 {
+  }
+
+  .cta-group {}
+
+  .brands-section {}
+
+  .image-col {}
+}
+
+@media (min-width: 1280px) {
+  .hero-grid {
+    gap: 3rem;
+  }
+}
+
+.dark-mode-toggle {
+  background-color: var(--primary-blue);
+  color: var(--text-dark);
+  border: none;
+  padding: 10px 15px;
+  font-size: 15px;
+  border-radius: 7px;
+  font-weight: 500;
+  margin-top: 40px;
+  display: flex;
+  justify-self: flex-end;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dark-mode-toggle:hover {
+  background-color: #0a57fd;
+}
+
+body.dark {}
+
+.dark-mode-toggle {}
+
+.dark-mode-toggle:hover {}
+
+input[type='text'].dark {}
+
+input[type='text']::placeholder {}

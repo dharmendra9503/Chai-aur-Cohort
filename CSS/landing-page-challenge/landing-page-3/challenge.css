@@ -1,0 +1,128 @@
+/* Challenge CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Georgia", serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 15px 70px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #8f532f;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  padding: 1.5px;
+  outline: 2px solid #8f532f;
+}
+
+.nav-menu a {
+  color: #8f532f;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.nav-menu a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.41), rgba(0, 0, 0, 0.381)), url("./assets/chaipatti.png") no-repeat center center/cover;
+  text-align: center;
+  height: 600px;
+}
+
+.hero-text {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.hero-text h1 {
+  font-size: 60px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  line-height: normal;
+}
+
+.hero-text p {
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.shop-button {
+  background-color: #8f532f;
+  color: #ffffff;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 50px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.shop-button:hover {
+  transform: scale(1.1);
+}
+
+.tea-collection {
+  margin: 50px 30px;
+}
+
+.tea-collection h2 {
+  text-align: center;
+  font-size: 35px;
+  color: #8f532f;
+}
+
+.tea-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  margin: 25px 150px;
+}
+
+.tea-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.tea-card h3 {
+  color: #8f532f;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.tea-card p {
+  color: #333;
+  font-size: 15px;
+  margin-bottom: 20px;
+}

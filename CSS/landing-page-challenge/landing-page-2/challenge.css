@@ -1,0 +1,120 @@
+/* Challenge CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1.6;
+  height: 100vh;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(35, 35, 35);
+  padding: 15px 70px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #00f094;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #00f094;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.menu a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+/* Hero section styles */
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.686), rgba(0, 0, 0, 0.595)), url('./assets/chaicohort.png');
+  background-size: cover;
+  background-position: center;
+  background-position-y: 65%;
+  height: 600px;
+}
+
+.hero-content {
+  text-align: center;
+  padding: 80px 0;
+
+}
+
+.hero-content h1 {
+  color: #00f094;
+}
+
+.hero-content p {
+  color: #ffffff;
+  margin-top: 12px;
+}
+
+.hero-content img {
+  display: block;
+  margin: 20px auto;
+  border: 2px solid #00f094;
+  border-radius: 5px;
+}
+
+.enroll-button {
+  padding: 10px 30px;
+  border-radius: 20px;
+  background-color: #00f094;
+  border: none;
+  font-size: 16px;
+  transition: transform 0.3s ease;
+}
+
+.enroll-button:hover {
+  transform: scaleX(1.1);
+  cursor: pointer;
+}
+
+/* Highlights section styles */
+.highlights {
+  display: flex;
+  justify-content: space-around;
+  background-color: #383535;
+  padding: 40px 0;
+}
+
+.highlight-card {
+  text-align: center;
+  padding: 22px 20px;
+  border-radius: 10px;
+  background-color: #161515;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.highlight-card h3 {
+  color: #00f094;
+}
+
+.highlight-card p {
+  color: #ffffff;
+  margin-top: 10px;
+}

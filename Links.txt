@@ -1,0 +1,14 @@
+Black board (Hitesh) - hitesh.ai/cohort-diagram
+
+Tracking
+- Clockify - clockify.me
+- Opal mobile app
+- Wakatime
+
+HTML Cheatsheet:
+- https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf
+- https://www3.cs.stonybrook.edu/~pramod.ganapathi/doc/CSE102/CSE102-CheatSheetHTML.pdf
+
+CSS Flexbox 
+- https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- https://flexbox.malven.co/

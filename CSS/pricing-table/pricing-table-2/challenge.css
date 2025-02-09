@@ -1,0 +1,136 @@
+/* Challenge CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #000000;
+}
+
+.container {
+  padding: 35px 45px;
+}
+
+.header {
+  text-align: center;
+  color: #ffffff;
+}
+
+h1 {
+  color: #ff3d23ed;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.subtitle {
+  color: #777777;
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+  text-align: center;
+}
+
+.pricing-card {
+  position: relative;
+  padding: 15px 25px;
+  border-radius: 10px;
+  background-color: #1f1d1d;
+  border: 2px solid rgba(100, 100, 100, 0.604);
+  margin: 0 15px;
+  width: 250px;
+  height: 490px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.card-header {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.icon {
+  font-size: 25px;
+}
+
+.popular-tag {
+  position: absolute;
+  top: -11px;
+  left: 50%;
+  border-radius: 20px;
+  transform: translateX(-50%);
+  padding: 2px 15px;
+  background-color: #ffdd02;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.price-block {
+  padding: 10px 15px;
+  background-color: #48414136;
+  border-radius: 10px;
+  color: #ff3d23ed;
+}
+
+.price {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.period {
+  font-size: 12px;
+  color: #777777;
+  text-transform: uppercase;
+}
+
+.features {
+  margin-top: 15px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.features li {
+  list-style: none;
+  margin-top: 25px;
+  font-size: 12px;
+}
+
+.features li.disabled {
+  color: #777777;
+}
+
+.join-btn {
+  margin-top: auto;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  border: 2px solid #ff462eed;
+  background-color: transparent;
+  color: #ff4b33ed;
+  transition: all 0.3s ease-in-out;
+}
+
+.join-btn:hover {
+  transform: translateY(-5px);
+}
+
+/* Custom Class Modifiers */
+.warrior {
+  background-color: rgba(176, 48, 48, 0.18);
+  border: 2px solid rgba(255, 15, 15, 0.515);
+}

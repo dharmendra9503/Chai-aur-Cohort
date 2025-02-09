@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, sans-serif;
+  line-height: 1.6;
+  color: white;
+  background-color: #0a0a0a;
+}
+
+.hero {
+  background: linear-gradient(180deg,
+      rgba(69, 45, 255, 0.1) 0%,
+      transparent 100%);
+  min-height: 100vh;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.announcement {
+  background-color: rgba(56, 44, 149, 0.1);
+  border: 1px solid rgb(77, 75, 75);
+  padding: 8px 10px 8px 15px;
+  border-radius: 50px;
+  transition: background-color 0.3s;
+}
+
+.announcement-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.announcement:hover {
+  background-color: rgba(100, 161, 194, 0.1);
+  transition: background-color 0.3s;
+}
+
+.announcement-button {
+  background-color: rgba(123, 108, 241, 0.1);
+  border-radius: 15px;
+  padding: 6px 12px;
+  display: flex;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 0 120px;
+}
+
+.hero-title {
+  text-align: center;
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.hero-description {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(165, 164, 164);
+  padding: 0 200px;
+}
+
+.cta-button {
+  background: linear-gradient(180deg, #5e1eff, #1e90ff);
+  padding: 10px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cta-button:hover {
+  box-shadow: 0 0 7px 7px rgba(101, 99, 198, 0.24), 0 0 5px 5px rgba(35, 52, 240, 0.19);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.cta-button {
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+@media (max-width: 1240px) {
+  .hero-description {
+    padding: 0 50px;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero {
+    padding: 1rem;
+  }
+
+  .announcement-link {
+    font-size: 0.75rem;
+  }
+
+  .hero-content {
+    padding: 0 1rem;
+  }
+
+  .hero-description {
+    padding: 0 50px;
+  }
+}
