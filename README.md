@@ -28,3 +28,9 @@
 - Pricing Table :: [Files](CSS/pricing-table/)
 
 - Landing Page :: [Files](CSS/landing-page/)
+
+<br>
+
+# JavaScript markdown files
+
+- Datatypes :: [Location](JS/markdowns)
