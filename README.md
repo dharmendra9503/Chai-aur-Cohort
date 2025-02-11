@@ -33,4 +33,4 @@
 
 # JavaScript markdown files
 
-- Datatypes :: [Location](JS/markdowns)
+- Datatypes :: [Location](JS/markdowns/datatypes.md)
