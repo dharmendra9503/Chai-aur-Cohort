@@ -97,4 +97,6 @@ const newArray = new Array("Dharmendra", "Prajapati");
 
 <br>
 
+> Click [here](/JS/array-methods.js) to get code of this.
+> 
 > There are many more instance method in the array, check [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/at)

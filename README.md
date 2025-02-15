@@ -34,3 +34,4 @@
 # JavaScript markdown files
 
 - Datatypes :: [Location](JS/markdowns/datatypes.md)
+- Array and Instace Methods :: [Location](JS/markdowns/array-methods.md)
