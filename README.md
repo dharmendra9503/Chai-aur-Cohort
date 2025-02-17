@@ -19,6 +19,8 @@
 ### **Phase 2: JavaScript Surgeons 🧑🏻‍⚕️**
 [Click to see content of this phase](Content.md#Phase-2-javaScript-surgeons)
 
+- JavaScript in Motion: 10 Essential Array Methods for Travel Agencies :: [Link](https://web-architect.hashnode.dev/javascript-in-motion-10-essential-array-methods-for-travel-agencies)
+
 <br>
 
 # Project Challenges
