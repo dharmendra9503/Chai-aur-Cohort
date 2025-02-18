@@ -37,3 +37,5 @@
 
 - Datatypes :: [Location](JS/markdowns/datatypes.md)
 - Array and Instace Methods :: [Location](JS/markdowns/array-methods.md)
+
+- Shallow Copy vs Deep Copy :: [Location](JS/markdowns/shallow-deep-copy)
