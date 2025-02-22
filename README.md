@@ -25,11 +25,11 @@
 
 # Project Challenges
 
-- Chai aur Hero Section :: [Files](CSS/chai-aur-hero-section)
+- Chai aur Hero Section (Pure CSS) :: [Files](CSS/chai-aur-hero-section)
 
-- Pricing Table :: [Files](CSS/pricing-table/)
+- Pricing Table (Pure CSS) :: [Files](CSS/pricing-table/)
 
-- Landing Page :: [Files](CSS/landing-page/)
+- Landing Page (Pure CSS) :: [Files](CSS/landing-page/)
 
 <br>
 
