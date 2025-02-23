@@ -20,6 +20,8 @@
 [Click to see content of this phase](Content.md#Phase-2-javaScript-surgeons)
 
 - JavaScript in Motion: 10 Essential Array Methods for Travel Agencies :: [Link](https://web-architect.hashnode.dev/javascript-in-motion-10-essential-array-methods-for-travel-agencies)
+  
+- JavaScript Loops: Detailed Guide :: [Link](https://web-architect.hashnode.dev/javascript-loops-detailed-guide)
 
 <br>
 
@@ -40,3 +42,5 @@
 - Array and Instace Methods :: [Location](JS/markdowns/array-methods.md)
 
 - Shallow Copy vs Deep Copy :: [Location](JS/markdowns/shallow-deep-copy.md)
+
+- Loops :: [Location](JS/markdowns/loops.md)
