@@ -44,3 +44,5 @@
 - Shallow Copy vs Deep Copy :: [Location](JS/markdowns/shallow-deep-copy.md)
 
 - Loops :: [Location](JS/markdowns/loops.md)
+
+- Objects :: [Location](JS/objects.js)
