@@ -27,11 +27,25 @@
 
 # Project Challenges
 
-- Chai aur Hero Section (Pure CSS) :: [Files](CSS/chai-aur-hero-section)
+- Chai aur Hero Section (HTML, CSS) :: [Files](CSS/chai-aur-hero-section)
 
-- Pricing Table (Pure CSS) :: [Files](CSS/pricing-table/)
+- Pricing Table (HTML, CSS) :: [Files](CSS/pricing-table/)
 
-- Landing Page (Pure CSS) :: [Files](CSS/landing-page/)
+- Landing Page (HTML, CSS) :: [Files](CSS/landing-page/)
+
+- DOM Challenges (HTML, CSS, Vanilla JS) :: [First Five](JS/DOM_Challenges_1_to_5)
+
+    - Light Bulb Toggle ::  [Files](JS/DOM_Challenges_1_to_5/challenge-1)
+
+    - Change Text Colour ::  [Files](JS/DOM_Challenges_1_to_5/challenge-2)
+
+    - Real-time Form Input Display  ::  [Files](JS/DOM_Challenges_1_to_5/challenge-3)
+
+    - Task Management  ::  [Files](JS/DOM_Challenges_1_to_5/challenge-4)
+
+    - Image Carousel Application  ::  [Files](JS/DOM_Challenges_1_to_5/challenge-5)
+
+
 
 <br>
 
