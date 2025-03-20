@@ -47,7 +47,7 @@
 
 - Assignment (HTML, CSS, Vanilla JS)
   
-    - MoodGarden :: [Live URL](moodgarden.vercel.app) | [Github URL](https://github.com/dharmendra9503/MoodGarden)
+    - MoodGarden :: [Live URL](https://moodgarden.vercel.app) | [Github URL](https://github.com/dharmendra9503/MoodGarden)
 
 <br>
 
