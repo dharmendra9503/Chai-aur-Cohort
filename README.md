@@ -45,7 +45,9 @@
 
     - Image Carousel Application  ::  [Files](JS/DOM_Challenges_1_to_5/challenge-5)
 
-
+- Assignment (HTML, CSS, Vanilla JS)
+  
+    - MoodGarden :: [Live URL](moodgarden.vercel.app) | [Github URL](https://github.com/dharmendra9503/MoodGarden)
 
 <br>
 
